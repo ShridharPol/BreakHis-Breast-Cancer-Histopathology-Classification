@@ -118,7 +118,33 @@ Classify histopathology images into **8 distinct tumor subtypes**.
 ├── breakhis-effnetb0-classification.ipynb
 └── README.md
 ```
+---
+## How to Reproduce
 
+Clone the repository
+```
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+```
+
+Download the dataset
+
+BreakHis dataset (Kaggle mirror): https://www.kaggle.com/datasets/waseemalastal/breakhis-breast-cancer-histopathological-dataset
+
+Place it inside a data/ folder in the project root.
+
+Install dependencies
+```
+pip install -r requirements.txt
+```
+
+Run the notebooks
+
+For binary classification:
+Open and run ```breakhis-binaryclassification-effnetb0.ipynb```
+
+For multiclass classification:
+Open and run ```breakhis-effnetb0-classification.ipynb```
 ---
 
 ## Dataset Reference
