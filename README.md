@@ -12,7 +12,7 @@ Both pipelines use **patient-wise splits** to avoid image leakage between traini
 
 ---
 
-## 📌 1. Binary Classification — Benign vs Malignant
+## 1. Binary Classification — Benign vs Malignant
 
 **Notebook:** `breakhis-binaryclassification-effnetb0.ipynb`
 
@@ -52,7 +52,7 @@ Train a robust binary classifier to distinguish between benign and malignant bre
 
 ---
 
-## 📌 2. Multiclass Classification — 8 Tumor Subtypes
+## 2. Multiclass Classification — 8 Tumor Subtypes
 
 **Notebook:** `breakhis-effnetb0-classification.ipynb`
 
@@ -101,7 +101,7 @@ Classify histopathology images into **8 distinct tumor subtypes**.
 
 ---
 
-## 🔍 Key Learnings
+## Key Learnings
 
 * **Binary classification** is more robust on the BreakHis dataset due to better class balance and clearer separation of features.
 * **Multiclass classification** struggles with severe class imbalance and rarity of certain subtypes.
@@ -110,7 +110,7 @@ Classify histopathology images into **8 distinct tumor subtypes**.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -121,6 +121,6 @@ Classify histopathology images into **8 distinct tumor subtypes**.
 
 ---
 
-## 📊 Dataset Reference
+## Dataset Reference
 
 * [BreakHis Breast Cancer Histopathology Dataset — Kaggle Mirror](https://www.kaggle.com/datasets/waseemalastal/breakhis-breast-cancer-histopathological-dataset)
