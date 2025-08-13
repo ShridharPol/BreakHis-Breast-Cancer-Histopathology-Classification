@@ -39,16 +39,37 @@ Train a robust binary classifier to distinguish between benign and malignant bre
 
 ### **Results**
 
-* **Test AUC:** 0.853
-* **Test PR-AUC:** 0.893
-* **Chosen threshold:** 0.2067 (Youden’s J statistic)
-* **Confusion Matrix:**
+Results (Binary Classification – Patient-wise Evaluation)
 
-  ```
-  [[220 162]
-   [ 59 468]]
-  ```
-* Strong malignant recall (0.888), slightly lower benign recall (0.576).
+Test AUC: 0.853
+
+Test PR-AUC: 0.893
+
+Chosen threshold: 0.2067 (Youden’s J statistic)
+
+Image-level Classification Report
+Class	Precision	Recall	F1-score	Support
+Benign	0.736	0.670	0.701	382
+Malignant	0.775	0.825	0.799	527
+
+Accuracy: 0.760
+
+Macro Avg: Precision 0.756, Recall 0.748, F1-score 0.751
+
+Weighted Avg: Precision 0.759, Recall 0.760, F1-score 0.758
+
+Patient-level Classification Report
+Class	Precision	Recall	F1-score	Support
+Benign	0.667	1.000	0.800	2
+Malignant	1.000	0.857	0.923	7
+
+Accuracy: 0.889
+
+Macro Avg: Precision 0.833, Recall 0.929, F1-score 0.862
+
+Weighted Avg: Precision 0.926, Recall 0.889, F1-score 0.896
+
+Patient-level AUC: 0.929
 
 ---
 
