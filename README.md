@@ -145,6 +145,7 @@ Open and run ```breakhis-binaryclassification-effnetb0.ipynb```
 
 For multiclass classification:
 Open and run ```breakhis-effnetb0-classification.ipynb```
+
 ---
 
 ## Dataset Reference
