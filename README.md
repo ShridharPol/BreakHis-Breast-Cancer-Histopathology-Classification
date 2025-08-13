@@ -39,37 +39,29 @@ Train a robust binary classifier to distinguish between benign and malignant bre
 
 ### **Results**
 
-Results (Binary Classification – Patient-wise Evaluation)
-
 Test AUC: 0.853
-
 Test PR-AUC: 0.893
-
 Chosen threshold: 0.2067 (Youden’s J statistic)
 
-Image-level Classification Report
-Class	Precision	Recall	F1-score	Support
-Benign	0.736	0.670	0.701	382
-Malignant	0.775	0.825	0.799	527
-
+Image-level Classification Report:
+- Benign:     Precision=0.736  Recall=0.670  F1=0.701  Support=382
+- Malignant:  Precision=0.775  Recall=0.825  F1=0.799  Support=527
 Accuracy: 0.760
+Macro Avg: Precision=0.756  Recall=0.748  F1=0.751
+Weighted Avg: Precision=0.759  Recall=0.760  F1=0.758
 
-Macro Avg: Precision 0.756, Recall 0.748, F1-score 0.751
+Confusion Matrix (Image-level %):
+[[67.0   33.0]   # Benign predicted as Benign / Malignant
+ [17.5   82.5]]  # Malignant predicted as Benign / Malignant
 
-Weighted Avg: Precision 0.759, Recall 0.760, F1-score 0.758
-
-Patient-level Classification Report
-Class	Precision	Recall	F1-score	Support
-Benign	0.667	1.000	0.800	2
-Malignant	1.000	0.857	0.923	7
-
+Patient-level Classification Report:
+- Benign:     Precision=0.667  Recall=1.000  F1=0.800  Support=2
+- Malignant:  Precision=1.000  Recall=0.857  F1=0.923  Support=7
 Accuracy: 0.889
-
-Macro Avg: Precision 0.833, Recall 0.929, F1-score 0.862
-
-Weighted Avg: Precision 0.926, Recall 0.889, F1-score 0.896
-
+Macro Avg: Precision=0.833  Recall=0.929  F1=0.862
+Weighted Avg: Precision=0.926  Recall=0.889  F1=0.896
 Patient-level AUC: 0.929
+
 
 ---
 
