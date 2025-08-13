@@ -51,8 +51,8 @@ Macro Avg: Precision=0.756  Recall=0.748  F1=0.751
 Weighted Avg: Precision=0.759  Recall=0.760  F1=0.758
 
 Confusion Matrix (Image-level %):
-[[67.0   33.0]   # Benign predicted as Benign / Malignant
- [17.5   82.5]]  # Malignant predicted as Benign / Malignant
+[[67.0   33.0]   
+ [17.5   82.5]]  
 
 Patient-level Classification Report:
 - Benign:     Precision=0.667  Recall=1.000  F1=0.800  Support=2
