@@ -14,6 +14,8 @@ Both pipelines use **patient-wise splits** to avoid image leakage between traini
 **Solution:** Built EfficientNetB0 pipelines for binary and multiclass classification with patient-wise data splits.  
 **Outcome:** Achieved 90%+ accuracy for binary classification and robust generalization across 8 tumor subtypes in multiclass mode.
 
+> Note: This project was developed during my internship at Hamdan InfoCom, Belagavi, exploring deep learning applications for biomedical image analysis.
+
 ---
 
 ## 1. Binary Classification — Benign vs Malignant
